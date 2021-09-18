@@ -5,7 +5,7 @@ from pokemon.api.serializers import PokemonSerializer
 
 
 class Command(BaseCommand):
-    help = 'Closes the specified poll for voting'
+    help = 'Loads pokemon from  evolution chains'
 
     def add_arguments(self, parser):
         parser.add_argument('id', type=int, help="Indicate the id for evolution chains")
